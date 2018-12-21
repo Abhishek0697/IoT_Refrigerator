@@ -1,4 +1,4 @@
-# IoT_SmartRefrigerator
+# IoT Smart Refrigerator
 
 Idea:
 Smart Refrigerator finds out the available stock of food items such as eggs , milk , jam, sauce etc present in it and sends a sms notification to the user’s designated mobile phone number via GSM module if any of these items are finished.
@@ -9,3 +9,11 @@ It resumes scanning only after the item  is replenished back by the user.
 A threshold level can also be set for quantity of eggs, amount of milk and other items such that when the available stock goes below the threshold, similar action can be taken.
 
 
+A.	Eggs Count and Ordering 
+In this model, an HC-04 Ultrasonic sensor is attached to the eggs tray.It continuously emits sound waves which reflect from the eggs placed in front of it and gives a particular distance.It can be programmed with the Arduino such that pre defining different ranges of distance we can calculate the presence of eggs as well as the quantity.Thus we raise an signal if the eggs are depleted or when a minimum threshold quantity is reached.The further operation is carried out  by the GSM module and the User.
+
+B.	Milk Measurement and Ordering
+The IR unit is attached to the cap of the milk container facing inwards of the container such that it can measure the depth of the inside liquid.We define a level depending on the container size such that if the milk goes below that level i.e the reflected distance becomes large than the threshold set, an signal is raised and a similar operation of ordering is carried out.This application can be extended to other liquids and solid food items by defining different levels of threshold conditions as per requirement.
+
+C.	Creation of  Interactive Interface 
+Using the GSM facility, an user can also send an inquiry request to the refrigerator about the present stock available in refrigerator.This feature can help in reducing over purchasing of some items while shopping and maintain household budget. Smart Refrigerator can also store information regarding nutritive values of vegetables,related Recipes etc.which the user can avail on demand by sending just an SMS to it. For instance it the user sends a text ‘Tomato’,then it get a SMS reply containing the nutrition content and google links to certain Recipes.For this we need to create a database in the Arduino for each of the items needed.
