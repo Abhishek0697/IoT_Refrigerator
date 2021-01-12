@@ -14,9 +14,9 @@ A threshold level can also be set for quantity of eggs, amount of milk and other
 
 *Block Diagram of Proposed Model-*
 
-![Block Diagram](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Block%20Diagram.PNG)
+![Block Diagram](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Block%20diagram.png)
 
-About GSM SIM 900A module
+### About GSM SIM 900A module
 
 SIM900A Modem is built with Dual Band GSM/GPRS based SIM900A modem from SIMCOM. It works on frequencies 900/ 1800 MHz. SIM900A can search these two bands automatically.The baud rate is configurable from 1200-115200 through AT command. This is a complete GSM/GPRS module in a SMT type and designed with a very powerful single-chip processor integrating AMR926EJ-S core, allowing you to benefit from small dimensions and cost-effective solutions.
 
@@ -53,11 +53,11 @@ SIM900A Modem is built with Dual Band GSM/GPRS based SIM900A modem from SIMCOM. 
 - Smart Refrigerator can also store information regarding nutritive values of vegetables,related Recipes etc. which the user can avail on demand by sending just an SMS to it. For instance it the user sends a text ‘Tomato’,then it get a SMS reply containing the nutrition content and google links to certain Recipes. For this we need to create a database in the Arduino for each of the items needed.
 
 
-*NotificationS to User's Phone -*
+### *NotificationS to User's Phone -*
 
 ![Notification to User's Phone](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Notification%20to%20User's%20Phone.PNG)     
    
    
-*Message to Grocery Store -*
+### *Message to Grocery Store -*
 
 ![Message to Grocery Store](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Message%20to%20Grocery%20Store.PNG)
