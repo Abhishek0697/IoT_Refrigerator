@@ -4,12 +4,11 @@
 
 
 #### *Idea*
-Smart Refrigerator finds out the available stock of food items such as eggs , milk , jam, sauce etc present in it and sends a sms notification to the user’s designated mobile phone number via GSM module if any of these items are finished.
-It then waits for the user’s response (via text sms) on weather to place an order for that particular food item or not.
-If user replies ‘Yes’ then it places an order for that item to an designated grocery store again through a SMS along with required time of delivery.
-If the refrigerator does not gets an command from the user,scanning for that item is paused.
-It resumes scanning only after the item  is replenished back by the user.
-A threshold level can also be set for quantity of eggs, amount of milk and other items such that when the available stock goes below the threshold, similar action can be taken.
+- Smart Refrigerator finds out the available stock of food items such as eggs , milk , jam, sauce etc present in it and sends a sms notification to the user’s designated mobile phone number via GSM module if any of these items are finished.
+- It then waits for the user’s response (via text sms) on weather to place an order for that particular food item or not.
+- If user replies ‘Yes’ then it places an order for that item to an designated grocery store again through a SMS along with required time of delivery.
+- If the refrigerator does not gets an command from the user,scanning for that item is paused.
+- It resumes scanning only after the item  is replenished back by the user. A threshold level can also be set for quantity of eggs, amount of milk and other items such that when the available stock goes below the threshold, similar action can be taken.
 
 
 *Block Diagram of Proposed Model-*
@@ -18,7 +17,7 @@ A threshold level can also be set for quantity of eggs, amount of milk and other
 
 ### About GSM SIM 900A module
 
-SIM900A Modem is built with Dual Band GSM/GPRS based SIM900A modem from SIMCOM. It works on frequencies 900/ 1800 MHz. SIM900A can search these two bands automatically.The baud rate is configurable from 1200-115200 through AT command. This is a complete GSM/GPRS module in a SMT type and designed with a very powerful single-chip processor integrating AMR926EJ-S core, allowing you to benefit from small dimensions and cost-effective solutions.
+- SIM900A Modem is built with Dual Band GSM/GPRS based SIM900A modem from SIMCOM. It works on frequencies 900/ 1800 MHz. SIM900A can search these two bands automatically.The baud rate is configurable from 1200-115200 through AT command. This is a complete GSM/GPRS module in a SMT type and designed with a very powerful single-chip processor integrating AMR926EJ-S core, allowing you to benefit from small dimensions and cost-effective solutions.
 
 *GSM SIM 900A -*
 
