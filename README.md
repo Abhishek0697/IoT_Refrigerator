@@ -3,7 +3,7 @@
 ### Read our paper on [arXiv](https://arxiv.org/ftp/arxiv/papers/2012/2012.10422.pdf)
 
 
-*Idea*\
+#### *Idea*\
 Smart Refrigerator finds out the available stock of food items such as eggs , milk , jam, sauce etc present in it and sends a sms notification to the user’s designated mobile phone number via GSM module if any of these items are finished.
 It then waits for the user’s response (via text sms) on weather to place an order for that particular food item or not.
 If user replies ‘Yes’ then it places an order for that item to an designated grocery store again through a SMS along with required time of delivery.
@@ -53,7 +53,7 @@ SIM900A Modem is built with Dual Band GSM/GPRS based SIM900A modem from SIMCOM. 
 - Smart Refrigerator can also store information regarding nutritive values of vegetables,related Recipes etc. which the user can avail on demand by sending just an SMS to it. For instance it the user sends a text ‘Tomato’,then it get a SMS reply containing the nutrition content and google links to certain Recipes. For this we need to create a database in the Arduino for each of the items needed.
 
 
-### *NotificationS to User's Phone -*
+### *Notifications to User's Phone -*
 
 ![Notification to User's Phone](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Notification%20to%20User's%20Phone.PNG)     
    
