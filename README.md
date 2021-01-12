@@ -1,5 +1,8 @@
 # IoT Smart Refrigerator
 
+### Read our paper on [arXiv](https://arxiv.org/ftp/arxiv/papers/2012/2012.10422.pdf)
+
+
 *Idea*\
 Smart Refrigerator finds out the available stock of food items such as eggs , milk , jam, sauce etc present in it and sends a sms notification to the user’s designated mobile phone number via GSM module if any of these items are finished.
 It then waits for the user’s response (via text sms) on weather to place an order for that particular food item or not.
