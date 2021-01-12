@@ -15,6 +15,8 @@
 
 ![Block Diagram](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Block%20diagram.png)
 
+
+
 ### About GSM SIM 900A module
 
 - SIM900A Modem is built with Dual Band GSM/GPRS based SIM900A modem from SIMCOM. It works on frequencies 900/ 1800 MHz. SIM900A can search these two bands automatically.The baud rate is configurable from 1200-115200 through AT command. This is a complete GSM/GPRS module in a SMT type and designed with a very powerful single-chip processor integrating AMR926EJ-S core, allowing you to benefit from small dimensions and cost-effective solutions.
@@ -29,6 +31,8 @@
 ![Basic AT commands](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Basic%20AT%20commands.PNG)
 
 
+
+
 # Eggs Count and Ordering 
 * In this model, an HC-04 Ultrasonic sensor is attached to the eggs tray. It continuously emits sound waves which reflect from the eggs placed in front of it and gives a particular distance. It has a maximum range of upto 400 cm. It can be programmed with the Arduino such that pre defining different ranges of distance we can calculate the presence of eggs as well as the quantity. Thus we raise an signal if the eggs are depleted or when a minimum threshold quantity is reached.The further operation is carried out  by the GSM module and the User.
 
@@ -36,6 +40,8 @@
 *Principle of Ultrasonic Sensor -*
 
 ![Principle of Ultrasonic Sensor](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Principle%20of%20Ultrasonic%20Sensor.PNG)
+
+
 
 
 # Milk Measurement and Ordering
@@ -47,16 +53,22 @@
 ![Infrared Sensing Principle](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Infrared%20Sensing%20Principle.PNG)
 
 
+
+
 # Creation of  Interactive Interface 
 - Using the GSM facility, an user can also send an inquiry request to the refrigerator about the present stock available in refrigerator. This feature can help in reducing over purchasing of some items while shopping and maintain household budget.
 - Smart Refrigerator can also store information regarding nutritive values of vegetables,related Recipes etc. which the user can avail on demand by sending just an SMS to it. For instance it the user sends a text ‘Tomato’,then it get a SMS reply containing the nutrition content and google links to certain Recipes. For this we need to create a database in the Arduino for each of the items needed.
 
 
-### *Notifications to User's Phone -*
+
+
+Notifications to User's Phone -
 
 ![Notification to User's Phone](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Notification%20to%20User's%20Phone.PNG)     
    
    
-### *Message to Grocery Store -*
+   
+   
+Message to Grocery Store -
 
 ![Message to Grocery Store](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Message%20to%20Grocery%20Store.PNG)
