@@ -3,7 +3,7 @@
 ### Read our paper on [arXiv](https://arxiv.org/ftp/arxiv/papers/2012/2012.10422.pdf)
 
 
-#### *Idea*\
+#### *Idea*
 Smart Refrigerator finds out the available stock of food items such as eggs , milk , jam, sauce etc present in it and sends a sms notification to the user’s designated mobile phone number via GSM module if any of these items are finished.
 It then waits for the user’s response (via text sms) on weather to place an order for that particular food item or not.
 If user replies ‘Yes’ then it places an order for that item to an designated grocery store again through a SMS along with required time of delivery.
