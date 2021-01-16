@@ -23,12 +23,11 @@
 
 *GSM SIM 900A -*
 
-![GSM SIM 900A](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/GSM%20SIM%20900A.PNG)
-
+<img src="https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/GSM%20SIM%20900A.PNG" alt="drawing" width="300"/>
 
 *Basic AT commands -*
 
-![Basic AT commands](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Basic%20AT%20commands.PNG)
+<img src="https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Basic%20AT%20commands.PNG" alt="drawing" width="300"/>
 
 
 
@@ -39,7 +38,7 @@
 
 *Principle of Ultrasonic Sensor -*
 
-![Principle of Ultrasonic Sensor](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Principle%20of%20Ultrasonic%20Sensor.PNG)
+<img src="https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Principle%20of%20Ultrasonic%20Sensor.PNG" alt="drawing" width="300"/>
 
 
 
@@ -64,11 +63,11 @@
 
 Notifications to User's Phone -
 
-![Notification to User's Phone](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Notification%20to%20User's%20Phone.PNG)     
-   
+<img src="https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Notification%20to%20User's%20Phone.PNG" alt="drawing" width="300"/>
    
    
    
 Message to Grocery Store -
 
-![Message to Grocery Store](https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Message%20to%20Grocery%20Store.PNG)
+<img src="https://github.com/Abhishek0697/IoT_Refrigerator/blob/master/docs/Message%20to%20Grocery%20Store.PNG" alt="drawing" width="300"/>
+
